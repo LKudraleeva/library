@@ -7,6 +7,7 @@ import io.jmix.core.metamodel.annotation.JmixEntity;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
+import java.util.ArrayList;
 import java.util.List;
 
 @JmixEntity
@@ -32,7 +33,7 @@ public class Library extends BaseEntity {
 
     @OnDelete(DeletePolicy.CASCADE)
     @OneToMany(mappedBy = "library")
-    private List<Book> books;
+    private List<Book> books = new ArrayList<>();
 
     public List<Book> getBooks() {
         return books;

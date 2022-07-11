@@ -57,7 +57,8 @@ public class FormEditServiceImpl implements FormEditService {
         return ((date1.isAfter(date3) && date2.isBefore(date4)) ||
                 (date1.isAfter(date3) && date1.isBefore(date4)) ||
                 (date2.isAfter(date3) && date2.isBefore(date4)) ||
-                (date1.isBefore(date3) && date2.isAfter(date4)));
+                (date1.isBefore(date3) && date2.isAfter(date4))) ||
+                (date1.equals(date3) || (date2.equals(date4)));
     }
 
     //проверка на взятие книг в этом периоде дат из библиотеки

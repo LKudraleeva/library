@@ -35,6 +35,8 @@
             <columns>
                 <column id="library"/>
                 <column id="reader"/>
+                <column id="issuanceDate"/>
+                <column id="returnDate"/>
             </columns>
             <simplePagination/>
             <buttonsPanel id="buttonsPanel"

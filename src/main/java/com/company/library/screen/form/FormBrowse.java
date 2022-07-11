@@ -1,7 +1,10 @@
 package com.company.library.screen.form;
 
-import io.jmix.ui.screen.*;
 import com.company.library.entity.Form;
+import io.jmix.ui.screen.LookupComponent;
+import io.jmix.ui.screen.StandardLookup;
+import io.jmix.ui.screen.UiController;
+import io.jmix.ui.screen.UiDescriptor;
 
 @UiController("Form_.browse")
 @UiDescriptor("form-browse.xml")

@@ -6,6 +6,8 @@ import io.jmix.core.metamodel.annotation.JmixEntity;
 import io.jmix.core.metamodel.annotation.JmixProperty;
 
 import javax.validation.constraints.NotNull;
+import java.time.LocalDate;
+import java.util.HashSet;
 import java.util.Set;
 import java.util.UUID;
 
@@ -25,7 +27,31 @@ public class BookOrder {
 
     @JmixProperty(mandatory = true)
     @NotNull
-    private Set<Book> books;
+    private Set<Book> books = new HashSet<>();
+
+    @JmixProperty(mandatory = true)
+    @NotNull
+    private LocalDate issuanceDate;
+
+    @JmixProperty(mandatory = true)
+    @NotNull
+    private LocalDate returnDate;
+
+    public LocalDate getReturnDate() {
+        return returnDate;
+    }
+
+    public void setReturnDate(LocalDate returnDate) {
+        this.returnDate = returnDate;
+    }
+
+    public LocalDate getIssuanceDate() {
+        return issuanceDate;
+    }
+
+    public void setIssuanceDate(LocalDate issuanceDate) {
+        this.issuanceDate = issuanceDate;
+    }
 
     public Set<Book> getBooks() {
         return books;

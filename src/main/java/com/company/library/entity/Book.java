@@ -70,7 +70,7 @@ public class Book extends BaseEntity {
     @InstanceName
     @DependsOnProperties({"author", "title"})
     public String getInstanceName() {
-        return String.format("%s %s", author, title);
+        return String.format("%s '%s'", author, title);
     }
 
 }

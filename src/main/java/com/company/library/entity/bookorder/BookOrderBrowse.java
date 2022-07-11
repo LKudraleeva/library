@@ -1,4 +1,4 @@
-package com.company.library.screen.bookorder;
+package com.company.library.entity.bookorder;
 
 import io.jmix.ui.screen.*;
 import com.company.library.entity.BookOrder;

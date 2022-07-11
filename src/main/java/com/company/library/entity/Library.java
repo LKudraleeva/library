@@ -23,13 +23,13 @@ public class Library extends BaseEntity {
             joinColumns = @JoinColumn(name = "LIBRARY_ID", referencedColumnName = "ID"),
             inverseJoinColumns = @JoinColumn(name = "WORKER_ID", referencedColumnName = "ID"))
     @ManyToMany
-    private List<Worker> workers;
+    private List<Worker> workers = new ArrayList<>();
 
     @JoinTable(name = "LIBRARY_READER_LINK",
             joinColumns = @JoinColumn(name = "LIBRARY_ID", referencedColumnName = "ID"),
             inverseJoinColumns = @JoinColumn(name = "READER_ID", referencedColumnName = "ID"))
     @ManyToMany
-    private List<Reader> readers;
+    private List<Reader> readers = new ArrayList<>();
 
     @OnDelete(DeletePolicy.CASCADE)
     @OneToMany(mappedBy = "library")

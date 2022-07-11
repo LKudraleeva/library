@@ -40,6 +40,12 @@
                             <action id="entityClear" type="entity_clear"/>
                         </actions>
                     </entityPicker>
+                    <entityPicker id="workerField" property="worker">
+                        <actions>
+                            <action id="entityLookup" type="entity_lookup"/>
+                            <action id="entityClear" type="entity_clear"/>
+                        </actions>
+                    </entityPicker>
                     <entityPicker id="bookField" property="book">
                         <actions>
                             <action id="entityLookup" type="entity_lookup"/>
@@ -48,6 +54,7 @@
                     </entityPicker>
                     <dateField id="issuanceDateField" property="issuanceDate"/>
                     <dateField id="returnDateField" property="returnDate"/>
+
                 </column>
             </form>
         </scrollBox>

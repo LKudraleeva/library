@@ -9,7 +9,7 @@
         <item screen="Reader.browse" caption="msg://com.company.library.screen.reader/readerBrowse.menu"/>
         <item screen="Worker.browse" caption="msg://com.company.library.screen.worker/workerBrowse.menu"/>
         <item screen="Library.browse" caption="msg://com.company.library.screen.library/libraryBrowse.menu"/>
-        <item screen="BookOrder.browse" caption="msg://com.company.library.screen.bookorder/bookOrderBrowse.menu"/>
+        <item screen="BookOrder.browse" caption="msg://com.company.library.entity.bookorder/bookOrderBrowse.menu"/>
     </menu>
 
 </menu-config>

@@ -9,6 +9,7 @@ import javax.persistence.Entity;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
+import java.util.ArrayList;
 import java.util.List;
 
 @JmixEntity
@@ -24,7 +25,7 @@ public class Worker extends BaseEntity {
     private String lastName;
 
     @OneToMany(mappedBy = "worker")
-    private List<Form> forms;
+    private List<Form> forms = new ArrayList<>();
 
     public List<Form> getForms() {
         return forms;

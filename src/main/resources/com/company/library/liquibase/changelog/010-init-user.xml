@@ -76,4 +76,329 @@
 
     </changeSet>
 
+    <changeSet id="5" author="library" context="!cuba">
+        <insert tableName="READER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="b4f402d6-77ba-4ec4-a5ea-dc05f57f8321"/>
+            <column name="VERSION" value="1"/>
+            <column name="CREATED_BY" value="admin"/>
+            <column name="CREATED_DATE" value="2022-07-11 14:22:43.456"/>
+            <column name="LAST_MODIFIED_BY" value="null"/>
+            <column name="LAST_MODIFIED_DATE" value="2022-07-11 14:22:43.456"/>
+            <column name="DELETED_BY" value="null"/>
+            <column name="DELETED_DATE" value="null"/>
+            <column name="FIRST_NAME" value="Иван"/>
+            <column name="LAST_NAME" value="Иванов"/>
+        </insert>
+
+        <insert tableName="READER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="0d3232e4-6e45-4663-8400-6dbefad3468a"/>
+            <column name="VERSION" value="1"/>
+            <column name="CREATED_BY" value="admin"/>
+            <column name="CREATED_DATE" value="2022-07-11 14:23:43.765"/>
+            <column name="LAST_MODIFIED_BY" value="null"/>
+            <column name="LAST_MODIFIED_DATE" value="2022-07-11 14:23:43.765"/>
+            <column name="DELETED_BY" value="null"/>
+            <column name="DELETED_DATE" value="null"/>
+            <column name="FIRST_NAME" value="Мария"/>
+            <column name="LAST_NAME" value="Максимова"/>
+        </insert>
+
+        <insert tableName="READER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="500cd786-7faf-47a9-8632-9ce9599519fe"/>
+            <column name="VERSION" value="1"/>
+            <column name="CREATED_BY" value="admin"/>
+            <column name="CREATED_DATE" value="2022-07-11 14:24:43.891"/>
+            <column name="LAST_MODIFIED_BY" value="null"/>
+            <column name="LAST_MODIFIED_DATE" value="2022-07-11 14:24:43.891"/>
+            <column name="DELETED_BY" value="null"/>
+            <column name="DELETED_DATE" value="null"/>
+            <column name="FIRST_NAME" value="Таня"/>
+            <column name="LAST_NAME" value="Паршкова"/>
+        </insert>
+
+    </changeSet>
+
+    <changeSet id="6" author="library" context="!cuba">
+
+        <insert tableName="WORKER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="35c0aa16-a580-472f-b725-92e5c943b99b"/>
+            <column name="VERSION" value="1"/>
+            <column name="CREATED_BY" value="admin"/>
+            <column name="CREATED_DATE" value="2022-07-11 14:24:43.123"/>
+            <column name="LAST_MODIFIED_BY" value="null"/>
+            <column name="LAST_MODIFIED_DATE" value="2022-07-11 14:24:43.123"/>
+            <column name="DELETED_BY" value="null"/>
+            <column name="DELETED_DATE" value="null"/>
+            <column name="FIRST_NAME" value="Павел"/>
+            <column name="LAST_NAME" value="Шевченко"/>
+        </insert>
+
+        <insert tableName="WORKER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="d31b061a-848a-4ffd-8701-99eac62e3a1d"/>
+            <column name="VERSION" value="1"/>
+            <column name="CREATED_BY" value="admin"/>
+            <column name="CREATED_DATE" value="2022-07-11 14:24:43.123"/>
+            <column name="LAST_MODIFIED_BY" value="null"/>
+            <column name="LAST_MODIFIED_DATE" value="2022-07-11 14:24:43.123"/>
+            <column name="DELETED_BY" value="null"/>
+            <column name="DELETED_DATE" value="null"/>
+            <column name="FIRST_NAME" value="Ольга"/>
+            <column name="LAST_NAME" value="Николаева"/>
+        </insert>
+
+        <insert tableName="WORKER" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="3af599b3-592a-4e24-87b8-1e981d221472"/>
+            <column name="VERSION" value="1"/>
+            <column name="CREATED_BY" value="admin"/>
+            <column name="CREATED_DATE" value="2022-07-11 14:25:43.003"/>
+            <column name="LAST_MODIFIED_BY" value="null"/>
+            <column name="LAST_MODIFIED_DATE" value="2022-07-11 14:25:43.003"/>
+            <column name="DELETED_BY" value="null"/>
+            <column name="DELETED_DATE" value="null"/>
+            <column name="FIRST_NAME" value="Андрей"/>
+            <column name="LAST_NAME" value="Баланковский"/>
+        </insert>
+    </changeSet>
+
+    <changeSet id="7" author="library"  context="!cuba">
+
+        <insert tableName="LIBRARY" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="8304f2b9-e25d-4cce-a227-43682a0521cc"/>
+            <column name="VERSION" value="1"/>
+            <column name="CREATED_BY" value="admin"/>
+            <column name="CREATED_DATE" value="2022-07-11 14:27:43.003"/>
+            <column name="LAST_MODIFIED_BY" value="null"/>
+            <column name="LAST_MODIFIED_DATE" value="2022-07-11 14:27:43.003"/>
+            <column name="DELETED_BY" value="null"/>
+            <column name="DELETED_DATE" value="null"/>
+            <column name="NAME" value="Библиотека им. Ленина"/>
+        </insert>
+
+        <insert tableName="LIBRARY" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="aa5abd5e-e799-4383-984c-dc53cb4a6da5"/>
+            <column name="VERSION" value="1"/>
+            <column name="CREATED_BY" value="admin"/>
+            <column name="CREATED_DATE" value="2022-07-11 14:27:43.003"/>
+            <column name="LAST_MODIFIED_BY" value="null"/>
+            <column name="LAST_MODIFIED_DATE" value="2022-07-11 14:27:43.003"/>
+            <column name="DELETED_BY" value="null"/>
+            <column name="DELETED_DATE" value="null"/>
+            <column name="NAME" value="Детская библиотека"/>
+        </insert>
+
+        <insert tableName="LIBRARY" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="cd21ddc9-98f8-4b66-a42b-6d77c4fc90af"/>
+            <column name="VERSION" value="1"/>
+            <column name="CREATED_BY" value="admin"/>
+            <column name="CREATED_DATE" value="2022-07-11 14:27:43.003"/>
+            <column name="LAST_MODIFIED_BY" value="null"/>
+            <column name="LAST_MODIFIED_DATE" value="2022-07-11 14:27:43.003"/>
+            <column name="DELETED_BY" value="null"/>
+            <column name="DELETED_DATE" value="null"/>
+            <column name="NAME" value="Самарская публичная библиотека"/>
+        </insert>
+
+
+    </changeSet>
+
+    <changeSet id="8" author="library"  context="!cuba">
+        <insert tableName="BOOK" dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="c20424ef-6471-4ce9-8431-93e59c1b69b0"/>
+            <column name="VERSION" value="1"/>
+            <column name="CREATED_BY" value="admin"/>
+            <column name="CREATED_DATE" value="2022-07-11 14:27:43.003"/>
+            <column name="LAST_MODIFIED_BY" value="null"/>
+            <column name="LAST_MODIFIED_DATE" value="2022-07-11 14:27:43.003"/>
+            <column name="DELETED_BY" value="null"/>
+            <column name="DELETED_DATE" value="null"/>
+            <column name="AUTHOR" value="Л.Н. Толстой"/>
+            <column name="TITLE" value="Война и мир"/>
+            <column name="AMOUNT" value="3"/>
+            <column name="LIBRARY_ID" value="8304f2b9-e25d-4cce-a227-43682a0521cc"/>
+        </insert>
+
+        <insert tableName="BOOK"  dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="47fced43-8beb-4fcf-afeb-92f4c0caa619"/>
+            <column name="VERSION" value="1"/>
+            <column name="CREATED_BY" value="admin"/>
+            <column name="CREATED_DATE" value="2022-07-11 14:27:43.003"/>
+            <column name="LAST_MODIFIED_BY" value="null"/>
+            <column name="LAST_MODIFIED_DATE" value="2022-07-11 14:27:43.003"/>
+            <column name="DELETED_BY" value="null"/>
+            <column name="DELETED_DATE" value="null"/>
+            <column name="AUTHOR" value="M.А. Достоевский"/>
+            <column name="TITLE" value="Мастер и Маргарита"/>
+            <column name="AMOUNT" value="2"/>
+            <column name="LIBRARY_ID" value="8304f2b9-e25d-4cce-a227-43682a0521cc"/>
+        </insert>
+
+
+        <insert tableName="BOOK"  dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="fd5ed6ad-5bda-491b-9505-e347dcbb3e51"/>
+            <column name="VERSION" value="1"/>
+            <column name="CREATED_BY" value="admin"/>
+            <column name="CREATED_DATE" value="2022-07-11 14:27:43.003"/>
+            <column name="LAST_MODIFIED_BY" value="null"/>
+            <column name="LAST_MODIFIED_DATE" value="2022-07-11 14:27:43.003"/>
+            <column name="DELETED_BY" value="null"/>
+            <column name="DELETED_DATE" value="null"/>
+            <column name="AUTHOR" value="С.Г. Лем"/>
+            <column name="TITLE" value="Солярис"/>
+            <column name="AMOUNT" value="2"/>
+            <column name="LIBRARY_ID" value="8304f2b9-e25d-4cce-a227-43682a0521cc"/>
+        </insert>
+
+        <insert tableName="BOOK"  dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="2a91457f-8d93-4d13-992e-a451e23cc648"/>
+            <column name="VERSION" value="1"/>
+            <column name="CREATED_BY" value="admin"/>
+            <column name="CREATED_DATE" value="2022-07-11 14:27:43.003"/>
+            <column name="LAST_MODIFIED_BY" value="null"/>
+            <column name="LAST_MODIFIED_DATE" value="2022-07-11 14:27:43.003"/>
+            <column name="DELETED_BY" value="null"/>
+            <column name="DELETED_DATE" value="null"/>
+            <column name="AUTHOR" value="С.Г. Лем"/>
+            <column name="TITLE" value="Солярис"/>
+            <column name="AMOUNT" value="2"/>
+            <column name="LIBRARY_ID" value="cd21ddc9-98f8-4b66-a42b-6d77c4fc90af"/>
+        </insert>
+
+        <insert tableName="BOOK"  dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="8faf8edb-3021-4b9e-bba6-1f119f625e8d"/>
+            <column name="VERSION" value="1"/>
+            <column name="CREATED_BY" value="admin"/>
+            <column name="CREATED_DATE" value="2022-07-11 14:27:43.003"/>
+            <column name="LAST_MODIFIED_BY" value="null"/>
+            <column name="LAST_MODIFIED_DATE" value="2022-07-11 14:27:43.003"/>
+            <column name="DELETED_BY" value="null"/>
+            <column name="DELETED_DATE" value="null"/>
+            <column name="AUTHOR" value="X.K. Андерсен"/>
+            <column name="TITLE" value="Дюймовочка"/>
+            <column name="AMOUNT" value="2"/>
+            <column name="LIBRARY_ID" value="aa5abd5e-e799-4383-984c-dc53cb4a6da5"/>
+        </insert>
+
+    </changeSet>
+
+    <changeSet id="9" author="library"  context="!cuba">
+        <insert tableName="LIBRARY_WORKER_LINK"  dbms="postgresql, mssql, hsqldb">
+            <column name="LIBRARY_ID" value="aa5abd5e-e799-4383-984c-dc53cb4a6da5"/>
+            <column name="WORKER_ID" value="3af599b3-592a-4e24-87b8-1e981d221472"/>
+        </insert>
+
+        <insert tableName="LIBRARY_WORKER_LINK"  dbms="postgresql, mssql, hsqldb">
+            <column name="LIBRARY_ID" value="cd21ddc9-98f8-4b66-a42b-6d77c4fc90af"/>
+            <column name="WORKER_ID" value="35c0aa16-a580-472f-b725-92e5c943b99b"/>
+        </insert>
+
+        <insert tableName="LIBRARY_WORKER_LINK"  dbms="postgresql, mssql, hsqldb">
+            <column name="LIBRARY_ID" value="8304f2b9-e25d-4cce-a227-43682a0521cc"/>
+            <column name="WORKER_ID" value="35c0aa16-a580-472f-b725-92e5c943b99b"/>
+        </insert>
+
+        <insert tableName="LIBRARY_WORKER_LINK"  dbms="postgresql, mssql, hsqldb">
+            <column name="LIBRARY_ID" value="8304f2b9-e25d-4cce-a227-43682a0521cc"/>
+            <column name="WORKER_ID" value="3af599b3-592a-4e24-87b8-1e981d221472"/>
+        </insert>
+
+        <insert tableName="LIBRARY_WORKER_LINK"  dbms="postgresql, mssql, hsqldb">
+            <column name="LIBRARY_ID" value="cd21ddc9-98f8-4b66-a42b-6d77c4fc90af"/>
+            <column name="WORKER_ID" value="d31b061a-848a-4ffd-8701-99eac62e3a1d"/>
+        </insert>
+
+    </changeSet>
+
+    <changeSet id="10" author="library" context="!cuba">
+        <insert tableName="LIBRARY_READER_LINK"  dbms="postgresql, mssql, hsqldb">
+            <column name="LIBRARY_ID" value="aa5abd5e-e799-4383-984c-dc53cb4a6da5"/>
+            <column name="READER_ID" value="0d3232e4-6e45-4663-8400-6dbefad3468a"/>
+        </insert>
+        <insert tableName="LIBRARY_READER_LINK"  dbms="postgresql, mssql, hsqldb">
+            <column name="LIBRARY_ID" value="aa5abd5e-e799-4383-984c-dc53cb4a6da5"/>
+            <column name="READER_ID" value="b4f402d6-77ba-4ec4-a5ea-dc05f57f8321"/>
+        </insert>
+        <insert tableName="LIBRARY_READER_LINK"  dbms="postgresql, mssql, hsqldb">
+            <column name="LIBRARY_ID" value="aa5abd5e-e799-4383-984c-dc53cb4a6da5"/>
+            <column name="READER_ID" value="500cd786-7faf-47a9-8632-9ce9599519fe"/>
+        </insert>
+
+        <insert tableName="LIBRARY_READER_LINK"  dbms="postgresql, mssql, hsqldb">
+            <column name="LIBRARY_ID" value="cd21ddc9-98f8-4b66-a42b-6d77c4fc90af"/>
+            <column name="READER_ID" value="0d3232e4-6e45-4663-8400-6dbefad3468a"/>
+        </insert>
+        <insert tableName="LIBRARY_READER_LINK"  dbms="postgresql, mssql, hsqldb">
+            <column name="LIBRARY_ID" value="cd21ddc9-98f8-4b66-a42b-6d77c4fc90af"/>
+            <column name="READER_ID" value="b4f402d6-77ba-4ec4-a5ea-dc05f57f8321"/>
+        </insert>
+        <insert tableName="LIBRARY_READER_LINK"  dbms="postgresql, mssql, hsqldb">
+            <column name="LIBRARY_ID" value="cd21ddc9-98f8-4b66-a42b-6d77c4fc90af"/>
+            <column name="READER_ID" value="500cd786-7faf-47a9-8632-9ce9599519fe"/>
+        </insert>
+
+        <insert tableName="LIBRARY_READER_LINK"  dbms="postgresql, mssql, hsqldb">
+            <column name="LIBRARY_ID" value="8304f2b9-e25d-4cce-a227-43682a0521cc"/>
+            <column name="READER_ID" value="0d3232e4-6e45-4663-8400-6dbefad3468a"/>
+        </insert>
+        <insert tableName="LIBRARY_READER_LINK"  dbms="postgresql, mssql, hsqldb">
+            <column name="LIBRARY_ID" value="8304f2b9-e25d-4cce-a227-43682a0521cc"/>
+            <column name="READER_ID" value="b4f402d6-77ba-4ec4-a5ea-dc05f57f8321"/>
+        </insert>
+        <insert tableName="LIBRARY_READER_LINK"  dbms="postgresql, mssql, hsqldb">
+            <column name="LIBRARY_ID" value="8304f2b9-e25d-4cce-a227-43682a0521cc"/>
+            <column name="READER_ID" value="500cd786-7faf-47a9-8632-9ce9599519fe"/>
+        </insert>
+
+    </changeSet>
+
+
+    <changeSet id="11" author="library" context="!cuba">
+        <insert tableName="FORM_"  dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="2b71571a-efef-4bf4-8ef4-92c6ba671d5e"/>
+            <column name="VERSION" value="1"/>
+            <column name="CREATED_BY" value="admin"/>
+            <column name="CREATED_DATE" value="2022-07-11 14:30:43.003"/>
+            <column name="LAST_MODIFIED_BY" value="null"/>
+            <column name="LAST_MODIFIED_DATE" value="2022-07-11 14:30:43.003"/>
+            <column name="DELETED_BY" value="null"/>
+            <column name="DELETED_DATE" value="null"/>
+            <column name="BOOK_ID" value="fd5ed6ad-5bda-491b-9505-e347dcbb3e51"/>
+            <column name="ISSUANCE_DATE" value="2022-07-15"/>
+            <column name="RETURN_DATE" value="2022-07-21"/>
+            <column name="READER_ID" value="0d3232e4-6e45-4663-8400-6dbefad3468a"/>
+            <column name="WORKER_ID" value="35c0aa16-a580-472f-b725-92e5c943b99b"/>
+        </insert>
+
+        <insert tableName="FORM_"  dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="2826b549-31a2-4f47-9734-c482063bfe80"/>
+            <column name="VERSION" value="1"/>
+            <column name="CREATED_BY" value="admin"/>
+            <column name="CREATED_DATE" value="2022-07-11 14:29:43.003"/>
+            <column name="LAST_MODIFIED_BY" value="null"/>
+            <column name="LAST_MODIFIED_DATE" value="2022-07-11 14:29:43.003"/>
+            <column name="DELETED_BY" value="null"/>
+            <column name="DELETED_DATE" value="null"/>
+            <column name="BOOK_ID" value="fd5ed6ad-5bda-491b-9505-e347dcbb3e51"/>
+            <column name="ISSUANCE_DATE" value="2022-07-14"/>
+            <column name="RETURN_DATE" value="2022-07-20"/>
+            <column name="READER_ID" value="b4f402d6-77ba-4ec4-a5ea-dc05f57f8321"/>
+            <column name="WORKER_ID" value="35c0aa16-a580-472f-b725-92e5c943b99b"/>
+        </insert>
+
+        <insert tableName="FORM_"  dbms="postgresql, mssql, hsqldb">
+            <column name="ID" value="5f430ea5-00d7-416c-8988-0d3cfa11ea92"/>
+            <column name="VERSION" value="1"/>
+            <column name="CREATED_BY" value="admin"/>
+            <column name="CREATED_DATE" value="2022-07-11 14:30:43.003"/>
+            <column name="LAST_MODIFIED_BY" value="null"/>
+            <column name="LAST_MODIFIED_DATE" value="2022-07-11 14:30:43.003"/>
+            <column name="DELETED_BY" value="null"/>
+            <column name="DELETED_DATE" value="null"/>
+            <column name="BOOK_ID" value="8faf8edb-3021-4b9e-bba6-1f119f625e8d"/>
+            <column name="ISSUANCE_DATE" value="2022-07-14"/>
+            <column name="RETURN_DATE" value="2022-07-20"/>
+            <column name="READER_ID" value="0d3232e4-6e45-4663-8400-6dbefad3468a"/>
+            <column name="WORKER_ID" value="3af599b3-592a-4e24-87b8-1e981d221472"/>
+        </insert>
+    </changeSet>
+
 </databaseChangeLog>
